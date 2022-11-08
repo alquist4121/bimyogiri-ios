@@ -7,61 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7FAB43CE291404E8003E3D34 /* KogiriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAB43CD291404E8003E3D34 /* KogiriApp.swift */; };
-		7FAB43D0291404E8003E3D34 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAB43CF291404E8003E3D34 /* ContentView.swift */; };
-		7FAB43D2291404E8003E3D34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FAB43D1291404E8003E3D34 /* Assets.xcassets */; };
-		7FAB43D5291404E8003E3D34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FAB43D4291404E8003E3D34 /* Preview Assets.xcassets */; };
-		7FAB43DF291404E9003E3D34 /* KogiriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAB43DE291404E9003E3D34 /* KogiriTests.swift */; };
-		7FAB43E9291404E9003E3D34 /* KogiriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAB43E8291404E9003E3D34 /* KogiriUITests.swift */; };
-		7FAB43EB291404E9003E3D34 /* KogiriUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAB43EA291404E9003E3D34 /* KogiriUITestsLaunchTests.swift */; };
+		7F72EB03291A44EB00237C8C /* bimyogiriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F72EB02291A44EB00237C8C /* bimyogiriApp.swift */; };
+		7F72EB05291A44EB00237C8C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F72EB04291A44EB00237C8C /* ContentView.swift */; };
+		7F72EB07291A44EC00237C8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F72EB06291A44EC00237C8C /* Assets.xcassets */; };
+		7F72EB0A291A44EC00237C8C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F72EB09291A44EC00237C8C /* Preview Assets.xcassets */; };
+		7F72EB14291A44EC00237C8C /* bimyogiriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F72EB13291A44EC00237C8C /* bimyogiriTests.swift */; };
+		7F72EB1E291A44EC00237C8C /* bimyogiriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F72EB1D291A44EC00237C8C /* bimyogiriUITests.swift */; };
+		7F72EB20291A44EC00237C8C /* bimyogiriUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F72EB1F291A44EC00237C8C /* bimyogiriUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7FAB43DB291404E9003E3D34 /* PBXContainerItemProxy */ = {
+		7F72EB10291A44EC00237C8C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7FAB43C2291404E8003E3D34 /* Project object */;
+			containerPortal = 7F72EAF7291A44EB00237C8C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7FAB43C9291404E8003E3D34;
-			remoteInfo = Kogiri;
+			remoteGlobalIDString = 7F72EAFE291A44EB00237C8C;
+			remoteInfo = bimyogiri;
 		};
-		7FAB43E5291404E9003E3D34 /* PBXContainerItemProxy */ = {
+		7F72EB1A291A44EC00237C8C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7FAB43C2291404E8003E3D34 /* Project object */;
+			containerPortal = 7F72EAF7291A44EB00237C8C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7FAB43C9291404E8003E3D34;
-			remoteInfo = Kogiri;
+			remoteGlobalIDString = 7F72EAFE291A44EB00237C8C;
+			remoteInfo = bimyogiri;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7FAB43CA291404E8003E3D34 /* Kogiri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kogiri.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FAB43CD291404E8003E3D34 /* KogiriApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KogiriApp.swift; sourceTree = "<group>"; };
-		7FAB43CF291404E8003E3D34 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		7FAB43D1291404E8003E3D34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7FAB43D4291404E8003E3D34 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7FAB43DA291404E9003E3D34 /* KogiriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KogiriTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FAB43DE291404E9003E3D34 /* KogiriTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KogiriTests.swift; sourceTree = "<group>"; };
-		7FAB43E4291404E9003E3D34 /* KogiriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KogiriUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FAB43E8291404E9003E3D34 /* KogiriUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KogiriUITests.swift; sourceTree = "<group>"; };
-		7FAB43EA291404E9003E3D34 /* KogiriUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KogiriUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7F72EAFF291A44EB00237C8C /* bimyogiri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bimyogiri.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F72EB02291A44EB00237C8C /* bimyogiriApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bimyogiriApp.swift; sourceTree = "<group>"; };
+		7F72EB04291A44EB00237C8C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7F72EB06291A44EC00237C8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F72EB09291A44EC00237C8C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7F72EB0F291A44EC00237C8C /* bimyogiriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bimyogiriTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F72EB13291A44EC00237C8C /* bimyogiriTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bimyogiriTests.swift; sourceTree = "<group>"; };
+		7F72EB19291A44EC00237C8C /* bimyogiriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bimyogiriUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F72EB1D291A44EC00237C8C /* bimyogiriUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bimyogiriUITests.swift; sourceTree = "<group>"; };
+		7F72EB1F291A44EC00237C8C /* bimyogiriUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bimyogiriUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7FAB43C7291404E8003E3D34 /* Frameworks */ = {
+		7F72EAFC291A44EB00237C8C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FAB43D7291404E9003E3D34 /* Frameworks */ = {
+		7F72EB0C291A44EC00237C8C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FAB43E1291404E9003E3D34 /* Frameworks */ = {
+		7F72EB16291A44EC00237C8C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -71,142 +71,142 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7FAB43C1291404E8003E3D34 = {
+		7F72EAF6291A44EB00237C8C = {
 			isa = PBXGroup;
 			children = (
-				7FAB43CC291404E8003E3D34 /* Kogiri */,
-				7FAB43DD291404E9003E3D34 /* KogiriTests */,
-				7FAB43E7291404E9003E3D34 /* KogiriUITests */,
-				7FAB43CB291404E8003E3D34 /* Products */,
+				7F72EB01291A44EB00237C8C /* bimyogiri */,
+				7F72EB12291A44EC00237C8C /* bimyogiriTests */,
+				7F72EB1C291A44EC00237C8C /* bimyogiriUITests */,
+				7F72EB00291A44EB00237C8C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7FAB43CB291404E8003E3D34 /* Products */ = {
+		7F72EB00291A44EB00237C8C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7FAB43CA291404E8003E3D34 /* Kogiri.app */,
-				7FAB43DA291404E9003E3D34 /* KogiriTests.xctest */,
-				7FAB43E4291404E9003E3D34 /* KogiriUITests.xctest */,
+				7F72EAFF291A44EB00237C8C /* bimyogiri.app */,
+				7F72EB0F291A44EC00237C8C /* bimyogiriTests.xctest */,
+				7F72EB19291A44EC00237C8C /* bimyogiriUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7FAB43CC291404E8003E3D34 /* Kogiri */ = {
+		7F72EB01291A44EB00237C8C /* bimyogiri */ = {
 			isa = PBXGroup;
 			children = (
-				7FAB43CD291404E8003E3D34 /* KogiriApp.swift */,
-				7FAB43CF291404E8003E3D34 /* ContentView.swift */,
-				7FAB43D1291404E8003E3D34 /* Assets.xcassets */,
-				7FAB43D3291404E8003E3D34 /* Preview Content */,
+				7F72EB02291A44EB00237C8C /* bimyogiriApp.swift */,
+				7F72EB04291A44EB00237C8C /* ContentView.swift */,
+				7F72EB06291A44EC00237C8C /* Assets.xcassets */,
+				7F72EB08291A44EC00237C8C /* Preview Content */,
 			);
-			path = Kogiri;
+			path = bimyogiri;
 			sourceTree = "<group>";
 		};
-		7FAB43D3291404E8003E3D34 /* Preview Content */ = {
+		7F72EB08291A44EC00237C8C /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				7FAB43D4291404E8003E3D34 /* Preview Assets.xcassets */,
+				7F72EB09291A44EC00237C8C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		7FAB43DD291404E9003E3D34 /* KogiriTests */ = {
+		7F72EB12291A44EC00237C8C /* bimyogiriTests */ = {
 			isa = PBXGroup;
 			children = (
-				7FAB43DE291404E9003E3D34 /* KogiriTests.swift */,
+				7F72EB13291A44EC00237C8C /* bimyogiriTests.swift */,
 			);
-			path = KogiriTests;
+			path = bimyogiriTests;
 			sourceTree = "<group>";
 		};
-		7FAB43E7291404E9003E3D34 /* KogiriUITests */ = {
+		7F72EB1C291A44EC00237C8C /* bimyogiriUITests */ = {
 			isa = PBXGroup;
 			children = (
-				7FAB43E8291404E9003E3D34 /* KogiriUITests.swift */,
-				7FAB43EA291404E9003E3D34 /* KogiriUITestsLaunchTests.swift */,
+				7F72EB1D291A44EC00237C8C /* bimyogiriUITests.swift */,
+				7F72EB1F291A44EC00237C8C /* bimyogiriUITestsLaunchTests.swift */,
 			);
-			path = KogiriUITests;
+			path = bimyogiriUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7FAB43C9291404E8003E3D34 /* Kogiri */ = {
+		7F72EAFE291A44EB00237C8C /* bimyogiri */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FAB43EE291404E9003E3D34 /* Build configuration list for PBXNativeTarget "Kogiri" */;
+			buildConfigurationList = 7F72EB23291A44EC00237C8C /* Build configuration list for PBXNativeTarget "bimyogiri" */;
 			buildPhases = (
-				7FAB43C6291404E8003E3D34 /* Sources */,
-				7FAB43C7291404E8003E3D34 /* Frameworks */,
-				7FAB43C8291404E8003E3D34 /* Resources */,
+				7F72EAFB291A44EB00237C8C /* Sources */,
+				7F72EAFC291A44EB00237C8C /* Frameworks */,
+				7F72EAFD291A44EB00237C8C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Kogiri;
-			productName = Kogiri;
-			productReference = 7FAB43CA291404E8003E3D34 /* Kogiri.app */;
+			name = bimyogiri;
+			productName = bimyogiri;
+			productReference = 7F72EAFF291A44EB00237C8C /* bimyogiri.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7FAB43D9291404E9003E3D34 /* KogiriTests */ = {
+		7F72EB0E291A44EC00237C8C /* bimyogiriTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FAB43F1291404E9003E3D34 /* Build configuration list for PBXNativeTarget "KogiriTests" */;
+			buildConfigurationList = 7F72EB26291A44EC00237C8C /* Build configuration list for PBXNativeTarget "bimyogiriTests" */;
 			buildPhases = (
-				7FAB43D6291404E9003E3D34 /* Sources */,
-				7FAB43D7291404E9003E3D34 /* Frameworks */,
-				7FAB43D8291404E9003E3D34 /* Resources */,
+				7F72EB0B291A44EC00237C8C /* Sources */,
+				7F72EB0C291A44EC00237C8C /* Frameworks */,
+				7F72EB0D291A44EC00237C8C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7FAB43DC291404E9003E3D34 /* PBXTargetDependency */,
+				7F72EB11291A44EC00237C8C /* PBXTargetDependency */,
 			);
-			name = KogiriTests;
-			productName = KogiriTests;
-			productReference = 7FAB43DA291404E9003E3D34 /* KogiriTests.xctest */;
+			name = bimyogiriTests;
+			productName = bimyogiriTests;
+			productReference = 7F72EB0F291A44EC00237C8C /* bimyogiriTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7FAB43E3291404E9003E3D34 /* KogiriUITests */ = {
+		7F72EB18291A44EC00237C8C /* bimyogiriUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FAB43F4291404E9003E3D34 /* Build configuration list for PBXNativeTarget "KogiriUITests" */;
+			buildConfigurationList = 7F72EB29291A44EC00237C8C /* Build configuration list for PBXNativeTarget "bimyogiriUITests" */;
 			buildPhases = (
-				7FAB43E0291404E9003E3D34 /* Sources */,
-				7FAB43E1291404E9003E3D34 /* Frameworks */,
-				7FAB43E2291404E9003E3D34 /* Resources */,
+				7F72EB15291A44EC00237C8C /* Sources */,
+				7F72EB16291A44EC00237C8C /* Frameworks */,
+				7F72EB17291A44EC00237C8C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7FAB43E6291404E9003E3D34 /* PBXTargetDependency */,
+				7F72EB1B291A44EC00237C8C /* PBXTargetDependency */,
 			);
-			name = KogiriUITests;
-			productName = KogiriUITests;
-			productReference = 7FAB43E4291404E9003E3D34 /* KogiriUITests.xctest */;
+			name = bimyogiriUITests;
+			productName = bimyogiriUITests;
+			productReference = 7F72EB19291A44EC00237C8C /* bimyogiriUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7FAB43C2291404E8003E3D34 /* Project object */ = {
+		7F72EAF7291A44EB00237C8C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
-					7FAB43C9291404E8003E3D34 = {
+					7F72EAFE291A44EB00237C8C = {
 						CreatedOnToolsVersion = 14.1;
 					};
-					7FAB43D9291404E9003E3D34 = {
+					7F72EB0E291A44EC00237C8C = {
 						CreatedOnToolsVersion = 14.1;
-						TestTargetID = 7FAB43C9291404E8003E3D34;
+						TestTargetID = 7F72EAFE291A44EB00237C8C;
 					};
-					7FAB43E3291404E9003E3D34 = {
+					7F72EB18291A44EC00237C8C = {
 						CreatedOnToolsVersion = 14.1;
-						TestTargetID = 7FAB43C9291404E8003E3D34;
+						TestTargetID = 7F72EAFE291A44EB00237C8C;
 					};
 				};
 			};
-			buildConfigurationList = 7FAB43C5291404E8003E3D34 /* Build configuration list for PBXProject "Kogiri" */;
+			buildConfigurationList = 7F72EAFA291A44EB00237C8C /* Build configuration list for PBXProject "bimyogiri" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,36 +214,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 7FAB43C1291404E8003E3D34;
-			productRefGroup = 7FAB43CB291404E8003E3D34 /* Products */;
+			mainGroup = 7F72EAF6291A44EB00237C8C;
+			productRefGroup = 7F72EB00291A44EB00237C8C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7FAB43C9291404E8003E3D34 /* Kogiri */,
-				7FAB43D9291404E9003E3D34 /* KogiriTests */,
-				7FAB43E3291404E9003E3D34 /* KogiriUITests */,
+				7F72EAFE291A44EB00237C8C /* bimyogiri */,
+				7F72EB0E291A44EC00237C8C /* bimyogiriTests */,
+				7F72EB18291A44EC00237C8C /* bimyogiriUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7FAB43C8291404E8003E3D34 /* Resources */ = {
+		7F72EAFD291A44EB00237C8C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FAB43D5291404E8003E3D34 /* Preview Assets.xcassets in Resources */,
-				7FAB43D2291404E8003E3D34 /* Assets.xcassets in Resources */,
+				7F72EB0A291A44EC00237C8C /* Preview Assets.xcassets in Resources */,
+				7F72EB07291A44EC00237C8C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FAB43D8291404E9003E3D34 /* Resources */ = {
+		7F72EB0D291A44EC00237C8C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FAB43E2291404E9003E3D34 /* Resources */ = {
+		7F72EB17291A44EC00237C8C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,49 +253,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7FAB43C6291404E8003E3D34 /* Sources */ = {
+		7F72EAFB291A44EB00237C8C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FAB43D0291404E8003E3D34 /* ContentView.swift in Sources */,
-				7FAB43CE291404E8003E3D34 /* KogiriApp.swift in Sources */,
+				7F72EB05291A44EB00237C8C /* ContentView.swift in Sources */,
+				7F72EB03291A44EB00237C8C /* bimyogiriApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FAB43D6291404E9003E3D34 /* Sources */ = {
+		7F72EB0B291A44EC00237C8C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FAB43DF291404E9003E3D34 /* KogiriTests.swift in Sources */,
+				7F72EB14291A44EC00237C8C /* bimyogiriTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FAB43E0291404E9003E3D34 /* Sources */ = {
+		7F72EB15291A44EC00237C8C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FAB43E9291404E9003E3D34 /* KogiriUITests.swift in Sources */,
-				7FAB43EB291404E9003E3D34 /* KogiriUITestsLaunchTests.swift in Sources */,
+				7F72EB20291A44EC00237C8C /* bimyogiriUITestsLaunchTests.swift in Sources */,
+				7F72EB1E291A44EC00237C8C /* bimyogiriUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7FAB43DC291404E9003E3D34 /* PBXTargetDependency */ = {
+		7F72EB11291A44EC00237C8C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7FAB43C9291404E8003E3D34 /* Kogiri */;
-			targetProxy = 7FAB43DB291404E9003E3D34 /* PBXContainerItemProxy */;
+			target = 7F72EAFE291A44EB00237C8C /* bimyogiri */;
+			targetProxy = 7F72EB10291A44EC00237C8C /* PBXContainerItemProxy */;
 		};
-		7FAB43E6291404E9003E3D34 /* PBXTargetDependency */ = {
+		7F72EB1B291A44EC00237C8C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7FAB43C9291404E8003E3D34 /* Kogiri */;
-			targetProxy = 7FAB43E5291404E9003E3D34 /* PBXContainerItemProxy */;
+			target = 7F72EAFE291A44EB00237C8C /* bimyogiri */;
+			targetProxy = 7F72EB1A291A44EC00237C8C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		7FAB43EC291404E9003E3D34 /* Debug */ = {
+		7F72EB21291A44EC00237C8C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -355,7 +355,7 @@
 			};
 			name = Debug;
 		};
-		7FAB43ED291404E9003E3D34 /* Release */ = {
+		7F72EB22291A44EC00237C8C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -409,14 +409,14 @@
 			};
 			name = Release;
 		};
-		7FAB43EF291404E9003E3D34 /* Debug */ = {
+		7F72EB24291A44EC00237C8C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Kogiri/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"bimyogiri/Preview Content\"";
 				DEVELOPMENT_TEAM = XM4CAWYGB6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -430,7 +430,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = alquist4121.Kogiri;
+				PRODUCT_BUNDLE_IDENTIFIER = alquist4121.bimyogiri;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -438,14 +438,14 @@
 			};
 			name = Debug;
 		};
-		7FAB43F0291404E9003E3D34 /* Release */ = {
+		7F72EB25291A44EC00237C8C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Kogiri/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"bimyogiri/Preview Content\"";
 				DEVELOPMENT_TEAM = XM4CAWYGB6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -459,7 +459,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = alquist4121.Kogiri;
+				PRODUCT_BUNDLE_IDENTIFIER = alquist4121.bimyogiri;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -467,7 +467,7 @@
 			};
 			name = Release;
 		};
-		7FAB43F2291404E9003E3D34 /* Debug */ = {
+		7F72EB27291A44EC00237C8C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -478,16 +478,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = alquist4121.KogiriTests;
+				PRODUCT_BUNDLE_IDENTIFIER = alquist4121.bimyogiriTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kogiri.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kogiri";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bimyogiri.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bimyogiri";
 			};
 			name = Debug;
 		};
-		7FAB43F3291404E9003E3D34 /* Release */ = {
+		7F72EB28291A44EC00237C8C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -498,16 +498,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = alquist4121.KogiriTests;
+				PRODUCT_BUNDLE_IDENTIFIER = alquist4121.bimyogiriTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kogiri.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kogiri";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bimyogiri.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bimyogiri";
 			};
 			name = Release;
 		};
-		7FAB43F5291404E9003E3D34 /* Debug */ = {
+		7F72EB2A291A44EC00237C8C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -516,16 +516,16 @@
 				DEVELOPMENT_TEAM = XM4CAWYGB6;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = alquist4121.KogiriUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = alquist4121.bimyogiriUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Kogiri;
+				TEST_TARGET_NAME = bimyogiri;
 			};
 			name = Debug;
 		};
-		7FAB43F6291404E9003E3D34 /* Release */ = {
+		7F72EB2B291A44EC00237C8C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -534,55 +534,55 @@
 				DEVELOPMENT_TEAM = XM4CAWYGB6;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = alquist4121.KogiriUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = alquist4121.bimyogiriUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Kogiri;
+				TEST_TARGET_NAME = bimyogiri;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7FAB43C5291404E8003E3D34 /* Build configuration list for PBXProject "Kogiri" */ = {
+		7F72EAFA291A44EB00237C8C /* Build configuration list for PBXProject "bimyogiri" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7FAB43EC291404E9003E3D34 /* Debug */,
-				7FAB43ED291404E9003E3D34 /* Release */,
+				7F72EB21291A44EC00237C8C /* Debug */,
+				7F72EB22291A44EC00237C8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FAB43EE291404E9003E3D34 /* Build configuration list for PBXNativeTarget "Kogiri" */ = {
+		7F72EB23291A44EC00237C8C /* Build configuration list for PBXNativeTarget "bimyogiri" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7FAB43EF291404E9003E3D34 /* Debug */,
-				7FAB43F0291404E9003E3D34 /* Release */,
+				7F72EB24291A44EC00237C8C /* Debug */,
+				7F72EB25291A44EC00237C8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FAB43F1291404E9003E3D34 /* Build configuration list for PBXNativeTarget "KogiriTests" */ = {
+		7F72EB26291A44EC00237C8C /* Build configuration list for PBXNativeTarget "bimyogiriTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7FAB43F2291404E9003E3D34 /* Debug */,
-				7FAB43F3291404E9003E3D34 /* Release */,
+				7F72EB27291A44EC00237C8C /* Debug */,
+				7F72EB28291A44EC00237C8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FAB43F4291404E9003E3D34 /* Build configuration list for PBXNativeTarget "KogiriUITests" */ = {
+		7F72EB29291A44EC00237C8C /* Build configuration list for PBXNativeTarget "bimyogiriUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7FAB43F5291404E9003E3D34 /* Debug */,
-				7FAB43F6291404E9003E3D34 /* Release */,
+				7F72EB2A291A44EC00237C8C /* Debug */,
+				7F72EB2B291A44EC00237C8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7FAB43C2291404E8003E3D34 /* Project object */;
+	rootObject = 7F72EAF7291A44EB00237C8C /* Project object */;
 }

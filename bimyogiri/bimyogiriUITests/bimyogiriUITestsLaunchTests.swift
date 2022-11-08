@@ -1,13 +1,13 @@
 //
-//  KogiriUITestsLaunchTests.swift
-//  KogiriUITests
+//  bimyogiriUITestsLaunchTests.swift
+//  bimyogiriUITests
 //
-//  Created by alquist4121 on 2022/11/03.
+//  Created by alquist4121 on 2022/11/08.
 //
 
 import XCTest
 
-final class KogiriUITestsLaunchTests: XCTestCase {
+final class bimyogiriUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

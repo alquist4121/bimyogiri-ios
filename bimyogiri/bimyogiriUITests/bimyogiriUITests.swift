@@ -1,13 +1,13 @@
 //
-//  KogiriUITests.swift
-//  KogiriUITests
+//  bimyogiriUITests.swift
+//  bimyogiriUITests
 //
-//  Created by alquist4121 on 2022/11/03.
+//  Created by alquist4121 on 2022/11/08.
 //
 
 import XCTest
 
-final class KogiriUITests: XCTestCase {
+final class bimyogiriUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
