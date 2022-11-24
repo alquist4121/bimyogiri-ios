@@ -14,6 +14,10 @@
 		7F72EB14291A44EC00237C8C /* bimyogiriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F72EB13291A44EC00237C8C /* bimyogiriTests.swift */; };
 		7F72EB1E291A44EC00237C8C /* bimyogiriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F72EB1D291A44EC00237C8C /* bimyogiriUITests.swift */; };
 		7F72EB20291A44EC00237C8C /* bimyogiriUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F72EB1F291A44EC00237C8C /* bimyogiriUITestsLaunchTests.swift */; };
+		7F9302C0292EAADC001B9FB6 /* TargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9302BF292EAADC001B9FB6 /* TargetView.swift */; };
+		7F9302C3292FA253001B9FB6 /* GenerateTextModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9302C2292FA253001B9FB6 /* GenerateTextModel.swift */; };
+		7F9302C5292FA380001B9FB6 /* GenerateTextAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9302C4292FA380001B9FB6 /* GenerateTextAPIClient.swift */; };
+		7F9302C7292FAFDB001B9FB6 /* GenerateTextViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9302C6292FAFDB001B9FB6 /* GenerateTextViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		7F72EB19291A44EC00237C8C /* bimyogiriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bimyogiriUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F72EB1D291A44EC00237C8C /* bimyogiriUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bimyogiriUITests.swift; sourceTree = "<group>"; };
 		7F72EB1F291A44EC00237C8C /* bimyogiriUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bimyogiriUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7F9302BF292EAADC001B9FB6 /* TargetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetView.swift; sourceTree = "<group>"; };
+		7F9302C2292FA253001B9FB6 /* GenerateTextModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateTextModel.swift; sourceTree = "<group>"; };
+		7F9302C4292FA380001B9FB6 /* GenerateTextAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateTextAPIClient.swift; sourceTree = "<group>"; };
+		7F9302C6292FAFDB001B9FB6 /* GenerateTextViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateTextViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +102,14 @@
 		7F72EB01291A44EB00237C8C /* bimyogiri */ = {
 			isa = PBXGroup;
 			children = (
+				7F9302C1292FA223001B9FB6 /* models */,
 				7F72EB02291A44EB00237C8C /* bimyogiriApp.swift */,
 				7F72EB04291A44EB00237C8C /* ContentView.swift */,
+				7F9302BF292EAADC001B9FB6 /* TargetView.swift */,
 				7F72EB06291A44EC00237C8C /* Assets.xcassets */,
 				7F72EB08291A44EC00237C8C /* Preview Content */,
+				7F9302C4292FA380001B9FB6 /* GenerateTextAPIClient.swift */,
+				7F9302C6292FAFDB001B9FB6 /* GenerateTextViewModel.swift */,
 			);
 			path = bimyogiri;
 			sourceTree = "<group>";
@@ -125,6 +137,14 @@
 				7F72EB1F291A44EC00237C8C /* bimyogiriUITestsLaunchTests.swift */,
 			);
 			path = bimyogiriUITests;
+			sourceTree = "<group>";
+		};
+		7F9302C1292FA223001B9FB6 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				7F9302C2292FA253001B9FB6 /* GenerateTextModel.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +279,10 @@
 			files = (
 				7F72EB05291A44EB00237C8C /* ContentView.swift in Sources */,
 				7F72EB03291A44EB00237C8C /* bimyogiriApp.swift in Sources */,
+				7F9302C7292FAFDB001B9FB6 /* GenerateTextViewModel.swift in Sources */,
+				7F9302C0292EAADC001B9FB6 /* TargetView.swift in Sources */,
+				7F9302C5292FA380001B9FB6 /* GenerateTextAPIClient.swift in Sources */,
+				7F9302C3292FA253001B9FB6 /* GenerateTextModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
