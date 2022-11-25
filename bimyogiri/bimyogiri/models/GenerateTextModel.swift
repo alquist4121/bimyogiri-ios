@@ -30,15 +30,13 @@ struct GenerateTextResponseModel: Codable {
         case prediction
     }
     
-    struct Output: Codable, Equatable, Identifiable {
-        let id: Int
+    struct Output: Codable, Equatable, Hashable {
         let original: String
-        let output: String
+        let generated: [String]
         
         enum CodingKeys: String, CodingKey {
-            case id
             case original
-            case output
+            case generated
         }
     }
 }

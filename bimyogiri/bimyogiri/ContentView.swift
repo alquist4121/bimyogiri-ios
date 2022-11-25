@@ -9,6 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     @State var cnt = 0
+    @State private var sentence = ""
+    @State var input_sentences = [String]()
     @ObservedObject private var viewModel: GenerateTextViewModel
     
     init(viewModel: GenerateTextViewModel) {
@@ -18,28 +20,49 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
-                Text(String(cnt))
+//                Text(String(cnt))
+//                Button(action: {
+//                    cnt += 1
+//                }) {
+//                    Text("count up")
+//                }
+//                NavigationLink(destination: TargetView(cnt)) {
+//                    Text("Open target view")
+//                }
+//                .navigationTitle("Source")
+//                .padding()
+                TextField("Type sentence to generate the rest", text: $sentence)
                 Button(action: {
-                    cnt += 1
+                    input_sentences.append(sentence)
                 }) {
-                    Text("count up")
+                    Text("tap to add text")
                 }
-                NavigationLink(destination: TargetView(cnt)) {
-                    Text("Open target view")
+                List {
+                    ForEach(input_sentences, id: \.self) {
+                        Text($0)
+                    }
+                    .onDelete { offSets in
+                        input_sentences.remove(atOffsets: offSets)
+                    }
                 }
-                .navigationTitle("Source")
+                .frame(maxHeight: 200)
                 .padding()
                 Button(action: {
-                    viewModel.generateButtonTapped(sentences: [
-                        "swift UIのメリットとして、",
-                        "Swift UIのデメリットとして、"
-                    ])
+                    viewModel.generateButtonTapped(sentences: input_sentences) {
+                        input_sentences.removeAll()
+                    }
                 }) {
                     Text("Tap to generate text")
                 }
                 List {
-                    ForEach(viewModel.outputs) {
-                        Text($0.output)
+                    ForEach(viewModel.outputs, id: \.self) { output in
+                        Section {
+                            ForEach(output.generated, id: \.self) { generated_sentence in
+                                Text(generated_sentence)
+                            }
+                        } header: {
+                            Text(output.original)
+                        }
                     }
                 }
                 .listStyle(.inset)

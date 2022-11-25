@@ -18,10 +18,11 @@ class GenerateTextViewModel: ObservableObject {
         self.generateTextApiClient = generateTextApiClient
     }
 
-    func generateButtonTapped(sentences: [String]) {
+    func generateButtonTapped(sentences: [String], callback: @escaping () -> Void) {
         generateTextApiClient
             .generateText(sentences: sentences)
             .sink { completion in
+                print(completion)
                 switch completion {
                 case .finished:
                     break
@@ -29,8 +30,10 @@ class GenerateTextViewModel: ObservableObject {
                     break
                 }
             } receiveValue: { model in
+                print(model)
                 print(model.prediction)
                 self.outputs = model.prediction
+                callback()
             }
             .store(in: &cancellables)
     }

@@ -25,10 +25,8 @@ final class GenerateTextAPIClient: GenerateTextAPIClientProtocol {
         let encoder = JSONEncoder()
         let data = try? encoder.encode(params)
         request.httpBody = data
-//        assert(JSONSerialization.isValidJSONObject(data))
-//        guard let httpBody = try? JSONSerialization.data(withJSONObject: data, options: []) else { return Fail(error: NSError(domain: "", code: -10001, userInfo: nil)).eraseToAnyPublisher() }
-//        request.httpBody = httpBody
         
+        print(request)
 
         return URLSession.shared.dataTaskPublisher(for: request)
             .map { $0.data }
